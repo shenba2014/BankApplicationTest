@@ -1,6 +1,11 @@
 install dependencies
 <br/>
 composer install
+<br/>
+and then select 1
+[1] config/modules.config.php
+and then select y
+<br/>
 
 enable development
 <br/>
