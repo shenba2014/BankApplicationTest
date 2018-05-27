@@ -2,6 +2,9 @@ install dependencies
 <br/>
 composer install
 
+create db
+php data/load_db.php
+
 run test
 <br/>
 ./vendor/bin/phpunit
