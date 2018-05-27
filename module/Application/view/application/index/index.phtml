@@ -1,0 +1,55 @@
+<table class="table">
+    <thead>
+    <tr>
+    <td scope="col">API Name</td>
+    <td scope="col">Method</td>
+    <td scope="col">Parameters</td>
+    <td scope="col">Url</td>
+    <td scope="col">Return</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Open Account</td>
+    <td>POST</td>
+    <td>owner,displayName</td>
+    <td>bank/account/open</td>
+    <td>account info</td>
+    </tr>
+    <tr>
+    <td>Close Account</td>
+    <td>POST</td>
+    <td>id</td>
+    <td>bank/account/close</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Get Account Balance</td>
+    <td>GET</td>
+    <td>id</td>
+    <td>bank/account/balance</td>
+    <td>account balance</td>
+    </tr>
+    <tr>
+    <td>Withdraw</td>
+    <td>POST</td>
+    <td>accountId,amount</td>
+    <td>bank/trading/withdraw</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Deposit</td>
+    <td>POST</td>
+    <td>accountId,amount</td>
+    <td>bank/trading/deposit</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Transfer</td>
+    <td>POST</td>
+    <td>fromAccountId,toAccountId,amount</td>
+    <td>bank/trading/transfer</td>
+    <td></td>
+    </tr>
+    </tbody>
+</table>

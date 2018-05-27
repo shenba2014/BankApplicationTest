@@ -1,0 +1,5 @@
+run test
+./vendor/bin/phpunit
+
+run application
+php -S 0.0.0.0:8080 -t public public/index.php
