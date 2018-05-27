@@ -2,6 +2,10 @@ install dependencies
 <br/>
 composer install
 
+enable development
+<br/>
+composer development-enable
+
 create db
 <br/>
 php data/load_db.php
