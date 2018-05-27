@@ -1,3 +1,6 @@
+install dependencies
+composer install
+
 run test
 ./vendor/bin/phpunit
 
